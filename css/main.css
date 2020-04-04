@@ -4,9 +4,11 @@ body {
   
   h1 {
     color: darkblue;
-    margin-left: 20px;
+    text-align: center;
+    font-weight: bold;
   }
 
+  
  html,
 body {
     width: 100%;
@@ -22,56 +24,102 @@ body {
 *::before,
 *::after{
     box-sizing: inherit;
-
 }
 
-img {
-    max-width: 100%;
-}
-
-.cm-header{
-    height: 60px;
-    position: sticky;
-    top: 0;
-    left:0;
-    background-color: #7fbe79;
-    z-index: 2;
-}
 
 .navbar{
     height: inherit;
-    font
-
+    position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-.title-section {}
-
-.cm-main-list {
-    margin: 0;
-    padding: 0;
-    height: inherit;
+ul {
     list-style-type: none;
-}
+    margin: 0;
+    padding: 1, 10%;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
 
-.cm-navbar-list-item {
-    display: inline-block;
-    height: inherit;
-}
 
-
-.cm-main-navbar-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: inherit;
-    width: 150px;
-    max-width: 18vw;
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: calc(16px + 1vw);
+  }
+
+  li a:hover {
+    background-color:#FF8C00; 
+  }
+
+
+
+
+
+
+  .section-two {
+    width: 1000px;
+    border: 15px ;
+    padding: 50px;
+    margin: auto;
+  }
+
+
+  .culture {
+    width: 300px;
+    border: 15px ;
+    padding: 50px;
+    margin: auto;
+    font-size: 25px;
+  }
+
+
+  .work {
+    width: 300px;
+    border: 15px ;
+    padding: 50px;
+    margin: auto;
+    font-size: 25;
+  }
+
+  .party {
+    width: 300px;
+    border: 15px ;
+    padding: 50px;
+    margin: auto;
+    font-size: 25;
+  }
+
+  .who-are-we {
+    width: 1000px;
+    border: 15px ;
+    padding: 100px;
+    margin: auto;
+  }
+
+.sophia {
+    float: right;
 }
 
-.cm-main-navbar-link:hover {
-    background-color: #518554;
-    color: #06afeb;
+.main-footer {
+   background: #333;
+   color: white;
+   padding: 1px 1%; 
 }
+
+
+.
+
+
+
+
+  
+
