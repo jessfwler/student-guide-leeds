@@ -1,82 +1,95 @@
 body {
     background-color: lightblue;
-    background-image: url(title-image.jpg);
   }
   
-  h1 {
-    color: darkblue;
-    text-align: center;
-    font-weight: bold;
-  }
-
-  
- html,
-body {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
-    font-size: 100%
-
-    
-
+html, body {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular', sans-serif;
+  font-size: 100%
 }
+
 *,
 *::before,
 *::after{
     box-sizing: inherit;
 }
 
-
 .navbar{
-    height: inherit;
-    position: fixed;
+  position: fixed;
   top: 0;
   width: 100%;
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 1, 10%;
+    margin: auto;
+    padding: 0;
     overflow: hidden;
     background-color: #333;
-    
+    text-align: center;
   }
 
-
-  li {
-    float: left;
-  }
+li {
+    display: inline-block;
+}
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 50px;
     text-decoration: none;
-  }
+    font-size: 20px;
+}
 
-  li a:hover {
+li a:hover {
     background-color:#FF8C00; 
-  }
+}
 
+.title-section {
+  float: center;
+  text-align: center;
+  background-image: url(../images/title-image.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
 
+.title-text {
+  color: yellow;
+  font-weight: bold;
+  margin-top: 100px;
+  display: block;
+  font-style: italic;
+  font-size: 70px;
+  text-shadow: 4px 4px black;
 
+}
 
-
-
-  .section-two {
-    width: 1000px;
-    border: 15px ;
-    padding: 50px;
+.section-two {
+  width: 73%;
+    border: 20px;
+    padding: 100px;
     margin: auto;
-  }
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    background: #FF8C00;
+    color: white;
+    position: inherit;
+}
 
 
-  .culture {
+.culture {
     width: 300px;
     border: 15px ;
     padding: 50px;
@@ -84,6 +97,12 @@ ul {
     font-size: 25px;
   }
 
+  figcaption {
+    color: white;
+    background:#333;
+    text-align: center;
+    font-style: italic;
+  }
 
   .work {
     width: 300px;
@@ -102,17 +121,40 @@ ul {
   }
 
   .who-are-we {
-    width: 1000px;
-    border: 15px ;
-    padding: 100px;
+    width: 74%;
+    height: 100%;
+    border: 10px;
+    padding: 50px;
     margin: auto;
+    text-align: center;
+    line-height: 25px;
+    background: #FF8C00;
+    color: white;
+  }
+
+  h2 {
+    font-size: 35px;
+    font-style: italic;
+
   }
 
 .sophia {
     float: right;
 }
 
-
+.jess {
+  float: left;
+}
+.form {
+  float: center;
+  position: inherit;
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  height: 100%;
+  border: 10px;
+  padding: 50px;
+}
 
 .share {
   font-stretch: wider;
@@ -157,7 +199,6 @@ ul {
 }
 
 .thanks {
-
   font-weight: bolder;
 }
 
@@ -179,13 +220,20 @@ ul {
 }
 
 .main-footer {
+   padding: 0; 
+   text-align: center;
    background: #333;
    color: white;
-   padding: 1px 1%; 
+   bottom: 0px;
+   height: 100%;
+   max-height: 75px;
 }
-
-
-.
+  
+.main-footer li a {
+  font-size: 15px;
+  bottom: 0;
+  margin: 0;
+}
 
 
 
