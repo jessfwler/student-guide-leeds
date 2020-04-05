@@ -1,6 +1,10 @@
 body {
     background-color: lightblue;
   }
+
+* {
+  box-sizing: border-box;
+}
   
 html, body {
   width: 100%;
@@ -11,74 +15,71 @@ html, body {
   font-size: 100%
 }
 
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-}
-
-.navbar{
+.navbar {
   position: fixed;
   top: 0;
   width: 100%;
-}
-
-.navbar ul {
-    list-style-type: none;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-  }
-
-li {
-    display: inline-block;
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 50px;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-li a:hover {
-    background-color:#FF8C00; 
-}
-
-.title-section {
-  float: center;
-  text-align: center;
-  background-image: url(../images/title-image.jpg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 100%;
-  width: 100%;
-  position: inherit;
   border: 0;
   padding: 0;
   margin: 0;
 }
 
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+
+.navbar li {
+    display: inline-block;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color:goldenrod; 
+}
+
+.title-section {
+  text-align: center;
+  background-image: url(../images/title-image-alt-2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  padding-top: 250;
+  padding-bottom: 10;
+  width: 100%;
+  border-top: 120;
+
+}
+
 .title-text {
   color: yellow;
   font-weight: bold;
-  margin-top: 100px;
   display: block;
   font-style: italic;
-  font-size: 70px;
+  font-size: 100px;
   text-shadow: 4px 4px black;
+  position: inherit;
+  margin-top: 60px;
+  float: bottom;
+
 
 }
 
 .section-two {
-  width: 73%;
-    border: 20px;
-    padding: 100px;
+  width: 100%;
+    padding: 5%;
     margin: auto;
     text-align: center;
     line-height: 50px;
@@ -87,50 +88,45 @@ li a:hover {
     color: white;
     position: inherit;
 }
-
+.three-images {
+  float: center;
+}
 
 .culture {
-    width: 300px;
-    border: 15px ;
-    padding: 50px;
-    margin: auto;
-    font-size: 25px;
-  }
+  padding: 50px;
+}
 
-  figcaption {
+.work {
+  padding: 50px;
+}
+
+.party {
+  padding: 50px;
+}
+
+figcaption {
     color: white;
     background:#333;
     text-align: center;
     font-style: italic;
-  }
-
-  .work {
+    font-size: 20px;
     width: 300px;
-    border: 15px ;
-    padding: 50px;
-    margin: auto;
-    font-size: 25;
-  }
-
-  .party {
-    width: 300px;
-    border: 15px ;
-    padding: 50px;
-    margin: auto;
-    font-size: 25;
   }
 
   .who-are-we {
-    width: 74%;
+    width: 80%;
+    min-width: 80%;
     height: 100%;
-    border: 10px;
-    padding: 50px;
+    border: 20px;
     margin: auto;
+    padding: 20px;
+    float: center;
     text-align: center;
     line-height: 25px;
     background: #FF8C00;
     color: white;
   }
+
 
   h2 {
     font-size: 35px;
@@ -140,20 +136,33 @@ li a:hover {
 
 .sophia {
     float: right;
+    
 }
 
 .jess {
   float: left;
+  max-height: 280px;
+  max-width: 280px;
+
 }
-.form {
-  float: center;
+
+.our-images {
   position: inherit;
   text-align: center;
-  margin: auto;
-  width: 40%;
+  margin: 50px;
+}
+
+.form {
+  width: 80%;
+  min-width: 70%;
   height: 100%;
   border: 10px;
   padding: 50px;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+  background: orange;
+  position: inherit;
 }
 
 .share {
@@ -188,7 +197,7 @@ li a:hover {
 }
 
 .spot {
-   width: 100%;
+   width: 40%;
   height: 150px;
   padding: 12px 20px;
   box-sizing: border-box;
@@ -203,13 +212,12 @@ li a:hover {
 }
 
 .submit-button {
-  background-color: #FF8C00; /* Green */
+  background-color: darkolivegreen;
   border: none;
   color: white;
   padding: 10px 22px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   transition-duration: 0.4s;
 }
@@ -219,20 +227,37 @@ li a:hover {
   color: white;
 }
 
-.main-footer {
-   padding: 0; 
-   text-align: center;
-   background: #333;
-   color: white;
-   bottom: 0px;
-   height: 100%;
-   max-height: 75px;
-}
-  
-.main-footer li a {
-  font-size: 15px;
-  bottom: 0;
+footer {
+  background-color: #333;
+  color: white;
+  top: 0;
+  width: 100%;
+  border: 0;
+  padding: 0;
   margin: 0;
+  
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+footer li a {
+color: white;
+display: block;
+text-align: center;
+padding: 10px 60px;
+text-decoration: none;
+font-size: 15px;
+}
+
+footer li {
+  display: inline-block;
 }
 
 
