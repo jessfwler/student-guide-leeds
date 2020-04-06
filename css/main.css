@@ -76,11 +76,10 @@ li a:hover {
 
 
 }
-
 .section-two {
   width: 100%;
     padding: 5%;
-    margin: auto;
+    margin: 0;
     text-align: center;
     line-height: 50px;
     font-size: 20px;
@@ -88,45 +87,56 @@ li a:hover {
     color: white;
     position: inherit;
 }
+
 .three-images {
-  float: center;
+  position: inherit;
+  width: 100%;
+  border: 20px;
 }
 
-.culture {
-  padding: 50px;
+.three-images ul {
+  list-style-type: none;
+  overflow: hidden;
+  text-align: center;
+  margin-right: 30px;
 }
 
-.work {
-  padding: 50px;
+.three-images li {
+  display: inline-block;
+  padding: 20px;
 }
 
-.party {
-  padding: 50px;
-}
-
-figcaption {
-    color: white;
-    background:#333;
-    text-align: center;
-    font-style: italic;
-    font-size: 20px;
-    width: 300px;
-  }
-
-  .who-are-we {
-    width: 80%;
-    min-width: 80%;
-    height: 100%;
-    border: 20px;
-    margin: auto;
-    padding: 20px;
-    float: center;
+.who-are-we {
     text-align: center;
     line-height: 25px;
     background: #FF8C00;
     color: white;
+    position: inherit;
+    float: center;
+    padding: 20px;
+    border: 20px;
+    height: 100%;
+    overflow: hidden;
+    min-width: 700px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
+  .who-text {
+    float: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+figcaption {
+  color: white;
+  background: grey;
+  text-transform: uppercase;
+  text-emphasis: italic;
+  padding: 5px;
+
+}
 
   h2 {
     font-size: 35px;
@@ -147,20 +157,20 @@ figcaption {
 }
 
 .our-images {
-  position: inherit;
   text-align: center;
   margin: 50px;
 }
 
 .form {
-  width: 80%;
-  min-width: 70%;
+  width: 70%;
   height: 100%;
-  border: 10px;
-  padding: 50px;
+  float: center;
   margin: auto;
+  margin-bottom: 20px;
+  overflow: hidden;
   text-align: center;
   line-height: 50px;
+  padding-bottom: 50px;
   background: orange;
   position: inherit;
 }
@@ -177,7 +187,7 @@ figcaption {
 
 .first-name {
   border: 2px solid #FF8C00;
-  height: 4%
+  height: 5%
 }
 
 .last-name-text {
@@ -187,7 +197,7 @@ figcaption {
 
 .surname {
   border: 2px solid #FF8C00;
-  height: 4%;
+  height: 5%;
 
 }
 
@@ -198,7 +208,7 @@ figcaption {
 
 .spot {
    width: 40%;
-  height: 150px;
+  height: 40%;
   padding: 12px 20px;
   box-sizing: border-box;
   border: 2px solid #FF8C00;
@@ -235,7 +245,6 @@ footer {
   border: 0;
   padding: 0;
   margin: 0;
-  
 }
 
 footer ul {
@@ -259,9 +268,5 @@ font-size: 15px;
 footer li {
   display: inline-block;
 }
-
-
-
-
   
 
