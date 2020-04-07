@@ -362,3 +362,99 @@ margin-left: 40;
 
 
 
+
+
+
+
+
+
+.study-title-section {
+  color:yellow;
+  font-weight: bold;
+  display: block;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 4px 4px black;
+  background-image: url(../images/campus-overview.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  padding-top: 250;
+  padding-bottom: 10;
+  width: 100%;
+  border-top: 120;
+  margin-top: 50px;
+}
+
+.study-intro {
+  width: 100%;
+  padding: 5%;
+  margin: 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  background: #FF8C00;
+  color: white;
+  position: inherit;
+}
+
+.brotherton-library {
+  padding: 40px;
+  position: inherit;
+  margin-right: 20%;
+}
+
+.edward-boyle {
+  padding: 40px;
+  position: inherit;
+  margin-right: 20%;
+}
+
+.laidlaw {
+  padding: 40px;
+  position: inherit;
+  margin-right: 20%;
+}
+.brotherton-library img {
+  float: left;
+  margin: 20px;
+}
+  
+.edward-boyle img {
+  float: left;
+  margin: 20px;
+}
+
+.laidlaw img {
+  float: left;
+  margin: 20px;
+}
+
+.study-list {
+overflow: hidden;
+float: center;
+margin-left: 40;
+}
+
+.caption-study {
+  color: white;
+  background-color: none;
+  text-align: left;
+  position: inherit;
+  float: center;
+  width: 200px;
+}
+
+.laidlaw img:hover {
+  opacity: 50%;
+  
+}
+.brotherton-library img:hover {
+  opacity: 50%;
+  
+}
+.edward-boyle img:hover {
+  opacity: 50%;
+  
+}
