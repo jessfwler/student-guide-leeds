@@ -268,5 +268,97 @@ font-size: 15px;
 footer li {
   display: inline-block;
 }
+
+.party-title-section {
+  color: yellow;
+  font-weight: bold;
+  display: block;
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 4px 4px black;
+  background-image: url(../images/title-image-leeds-2.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  padding-top: 250;
+  padding-bottom: 10;
+  width: 100%;
+  border-top: 120;
+  margin-top: 50px;
+}
+
+.party-intro {
+  width: 100%;
+  padding: 5%;
+  margin: 0;
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  background: #FF8C00;
+  color: white;
+  position: inherit;
+}
+
+.brudenell-social-club {
+  padding: 40px;
+  position: inherit;
+  margin-right: 20%;
+}
+
+.old-red-bus-station {
+  padding: 40px;
+  position: inherit;
+  margin-right: 20%;
+}
+
+.fruity {
+  padding: 40px;
+  position: inherit;
+  margin-right: 20%;
+}
+.brudenell-social-club img {
+  float: left;
+  margin: 20px;
+}
   
+.old-red-bus-station img {
+  float: left;
+  margin: 20px;
+}
+
+.fruity img {
+  float: left;
+  margin: 20px;
+}
+
+.party-list {
+overflow: hidden;
+float: center;
+margin-left: 40;
+}
+
+.caption-party {
+  color: white;
+  background-color: none;
+  text-align: left;
+  position: inherit;
+  float: center;
+  width: 200px;
+}
+
+.fruity img:hover {
+  opacity: 50%;
+  
+}
+.brudenell-social-club img:hover {
+  opacity: 50%;
+  
+}
+.old-red-bus-station img:hover {
+  opacity: 50%;
+  
+}
+
+
 
