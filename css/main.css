@@ -177,12 +177,16 @@ figcaption {
 
 .share {
   font-stretch: wider;
+  font-weight: bold;
+  color: white;
   
 }
 
 .first-name-text {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: bold;
+  color: white;
 }
 
 .first-name {
@@ -193,6 +197,8 @@ figcaption {
 .last-name-text {
   font-size: 16px;
   line-height: 1.5;
+  font-weight: bold;
+  color: white;
 }
 
 .surname {
@@ -204,6 +210,8 @@ figcaption {
 .favourite-spot-text {
   font-size: 16px;
   line-height: 2;
+  font-weight: bold;
+  color: white;
 }
 
 .spot {
@@ -219,6 +227,8 @@ figcaption {
 
 .thanks {
   font-weight: bolder;
+  font-weight: bold;
+  color: white;
 }
 
 .submit-button {
@@ -375,7 +385,7 @@ margin-left: 40;
   font-style: italic;
   font-size: 40px;
   text-shadow: 4px 4px black;
-  background-image: url(../images/campus-overview.jpg);
+  background-image: url(../images/study-pic.jpg);
   text-align: center;
   background-repeat: no-repeat;
   background-position-x: center;
